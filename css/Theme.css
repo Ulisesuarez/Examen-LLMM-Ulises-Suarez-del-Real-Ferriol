@@ -1,0 +1,262 @@
+
+#contenidoSecciones{
+    margin-left: 2em;
+}
+
+.textoSeccion{
+    font-size:1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.titulo{
+    float: left;
+   
+}
+#EncabezadoPrincipal{
+
+    color:rgb(11, 54, 47);
+    font-size:3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left:2em;
+    margin-top:1em;
+    font-stretch:ultra-condensed;
+}
+
+#subEncabezado{
+    color:rgb(50, 59, 58);
+    font-size:1em;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left:8em;
+    margin-top:-2em;
+    
+
+
+}
+
+#blocksombra{
+    position:relative;
+    color:white;
+    background-color: rgba(0, 0, 0,0.3);
+    left:45em;
+    top:-9em;
+    width: 36em;
+
+    
+}
+#blocksombra h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#blocksombra p{
+    font-size: 1.4em;
+    margin-left: 4em;
+    margin-top:-1em;
+
+}
+
+
+
+
+/*Menu horizontal*/
+
+.MenuHorizontal{
+    
+    float:left;
+    margin-top:3.5em;
+    margin-left:4em;
+    
+
+}
+
+
+.MenuHorizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.MenuHorizontal li {
+    float: left;
+}
+
+.MenuHorizontal li a {
+    display: block;
+    color: rgb(24, 79, 182);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#active{
+    color:rgb(11, 54, 47);
+}
+.MenuHorizontal li a:hover{
+    color:rgb(11, 54, 47);
+}
+
+/* Barra lateral examen prueba derecha*/
+.BarraLateral{
+    float:right;
+    
+    left:73%;
+    top:47%;
+    width:25%;
+    margin-left:2%;
+    
+    border-style:solid;
+    border-color:rgba(11, 54, 47,0.3);
+    border-width: 0.01em;
+    box-shadow: 1px 1px rgba(11, 54, 47,0.3);  
+    margin-bottom:10%;  
+}
+
+.ulLateral{
+    list-style: none;
+}
+.ulLateral2{
+    list-style: none;
+}
+.BarraLateral h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(19, 70, 104);
+}
+#h2ViAS{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(19, 70, 104);
+}
+
+.ulLateral li {
+    padding:0.2em;
+    margin:0.2em; 
+
+}
+.ulLateral2 li {
+    padding:0.5em;
+    margin:0.5em;
+    width: 15em;
+    height: 3em;
+
+}
+
+
+.ulLateral li a{
+    text-decoration-line:none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.ulLateral2 li a{
+    text-decoration-line:none;
+    color: black;
+    margin-left: 0.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.ulLateral li:hover{
+    background-color: rgb(19, 70, 104);
+    
+}
+.ulLateral li:hover a{
+
+color:white;
+}
+
+.ulLateral2 li:hover img{
+    display:none;
+}
+.ulLateral2 li:hover{
+    background-color: rgb(19, 70, 104);
+    
+}
+.ulLateral2 li:hover a{
+font-size:1.5em;
+color:white;
+}
+
+
+#imgMain{
+
+    float:left;
+    width: 72%;
+    margin-bottom: 2em;
+}
+
+#pBajoImagen{
+   padding-top:5em;
+}
+
+/*FOOTER*/
+
+#fooContenedor{
+    margin-top:1em;
+    width: 100%;
+    
+    background-color: rgb(19, 70, 104);
+    border-radius: 0.5em;
+    float:left;
+    margin-bottom: 1em;
+    
+}
+
+.fooMenu{
+    
+    display:inline-block;
+}
+
+.ulfoo {
+    list-style-type:none; 
+    width: 100%;
+    height: 5%;
+    margin-left: 5%;
+    margin-right:18%;
+    
+}
+.ulfoo li {
+    
+    margin:1em;
+    margin-left: 3em;
+    padding:0.5em;
+    float:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+
+.ulfoo li a {
+    
+    color: rgb(255, 255, 255);
+    padding: 1em 1em;
+    text-decoration-line:none;    
+    font-size: 1em; 
+    
+}
+
+.ulfoo li:hover{
+    background-color: white;
+    border-radius: 1em;
+}
+
+.ulfoo li:hover a {
+
+    color: rgb(19, 70, 104);
+}
+
+strong{
+    font-weight:bold;
+}
+
+strong:hover{
+    color:rgb(19, 60, 94);
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    
+
+}
